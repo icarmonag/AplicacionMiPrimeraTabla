@@ -195,10 +195,6 @@
     
 }
 
-//- (IBAction)unwindBioAction:(UIStoryboardSegue*)unwindSegue{
-    
-//}
-
 - (IBAction)unwindBioAction:(UIStoryboardSegue *)segue {
 }
 
@@ -220,17 +216,14 @@
             if (i==0){
                 destViewController.userImages = [[NSMutableArray alloc] initWithObjects: @"Tyrion.jpg", @"Danaerys.jpg", @"Eddard.jpg", @"Dragon.jpg", nil];
             }
-            NSLog(@"%d", i);
             
             if (i>=destViewController.userImages.count)
             {
-                NSLog(@"%lx", destViewController.userImages.count);
                 [destViewController.userImages addObject:self.imageTaken[i]];
             } else {
-            destViewController.userImages[i]=[UIImage imageNamed:self.userImages[i]];
+                destViewController.userImages[i]=[UIImage imageNamed:self.userImages[i]];
             }
         }
-        NSLog(@"%lx", indexPath.row);
     }
 }
 @end

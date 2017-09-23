@@ -17,8 +17,6 @@
 
 @implementation BioViewController
 
-/*userImages = [[NSMutableArray alloc] initWithObjects: @"Tyrion.jpg", @"Danaerys.jpg", @"Eddard.jpg", @"Dragon.jpg", nil];*/
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
