@@ -14,6 +14,13 @@
 		2C9427201F733253004A9A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C94271F1F733253004A9A96 /* Assets.xcassets */; };
 		2C9427231F733253004A9A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9427211F733253004A9A96 /* LaunchScreen.storyboard */; };
 		2C9427261F733253004A9A96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9427251F733253004A9A96 /* main.m */; };
+		2C9427321F7336DA004A9A96 /* cellMainTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9427301F7336DA004A9A96 /* cellMainTable.m */; };
+		2C9427331F7336DA004A9A96 /* cellMainTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C9427311F7336DA004A9A96 /* cellMainTable.xib */; };
+		2CFAF0AE1F733DB50090C36C /* Eddard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAF0AB1F733DB40090C36C /* Eddard.jpg */; };
+		2CFAF0AF1F733DB50090C36C /* Tyrion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAF0AC1F733DB50090C36C /* Tyrion.jpg */; };
+		2CFAF0B01F733DB50090C36C /* Danaerys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAF0AD1F733DB50090C36C /* Danaerys.jpg */; };
+		2CFAF0B21F733E370090C36C /* Dragon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAF0B11F733E370090C36C /* Dragon.jpg */; };
+		2CFAF0B41F7350BA0090C36C /* Arya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAF0B31F7350BA0090C36C /* Arya.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +35,14 @@
 		2C9427221F733253004A9A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C9427241F733253004A9A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C9427251F733253004A9A96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C94272F1F7336DA004A9A96 /* cellMainTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cellMainTable.h; sourceTree = "<group>"; };
+		2C9427301F7336DA004A9A96 /* cellMainTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cellMainTable.m; sourceTree = "<group>"; };
+		2C9427311F7336DA004A9A96 /* cellMainTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = cellMainTable.xib; sourceTree = "<group>"; };
+		2CFAF0AB1F733DB40090C36C /* Eddard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Eddard.jpg; sourceTree = "<group>"; };
+		2CFAF0AC1F733DB50090C36C /* Tyrion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tyrion.jpg; sourceTree = "<group>"; };
+		2CFAF0AD1F733DB50090C36C /* Danaerys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Danaerys.jpg; sourceTree = "<group>"; };
+		2CFAF0B11F733E370090C36C /* Dragon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dragon.jpg; sourceTree = "<group>"; };
+		2CFAF0B31F7350BA0090C36C /* Arya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Arya.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +75,11 @@
 		2C9427121F733253004A9A96 /* Mi Primera Tabla */ = {
 			isa = PBXGroup;
 			children = (
-				2C9427131F733253004A9A96 /* AppDelegate.h */,
-				2C9427141F733253004A9A96 /* AppDelegate.m */,
-				2C9427161F733253004A9A96 /* ViewController.h */,
-				2C9427171F733253004A9A96 /* ViewController.m */,
+				2CD5CEB21F75F26C00EC4042 /* carousel */,
+				2C9427341F7339B0004A9A96 /* imgs */,
+				2C94272E1F733612004A9A96 /* Cells */,
+				2C94272D1F7332E7004A9A96 /* Controllers */,
+				2C94272C1F7332CA004A9A96 /* Main */,
 				2C9427191F733253004A9A96 /* Main.storyboard */,
 				2C94271F1F733253004A9A96 /* Assets.xcassets */,
 				2C9427211F733253004A9A96 /* LaunchScreen.storyboard */,
@@ -72,6 +88,54 @@
 				2C94271C1F733253004A9A96 /* Mi_Primera_Tabla.xcdatamodeld */,
 			);
 			path = "Mi Primera Tabla";
+			sourceTree = "<group>";
+		};
+		2C94272C1F7332CA004A9A96 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2C9427131F733253004A9A96 /* AppDelegate.h */,
+				2C9427141F733253004A9A96 /* AppDelegate.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2C94272D1F7332E7004A9A96 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C9427171F733253004A9A96 /* ViewController.m */,
+				2C9427161F733253004A9A96 /* ViewController.h */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2C94272E1F733612004A9A96 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2C94272F1F7336DA004A9A96 /* cellMainTable.h */,
+				2C9427301F7336DA004A9A96 /* cellMainTable.m */,
+				2C9427311F7336DA004A9A96 /* cellMainTable.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2C9427341F7339B0004A9A96 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				2CFAF0B31F7350BA0090C36C /* Arya.jpg */,
+				2CFAF0B11F733E370090C36C /* Dragon.jpg */,
+				2CFAF0AD1F733DB50090C36C /* Danaerys.jpg */,
+				2CFAF0AB1F733DB40090C36C /* Eddard.jpg */,
+				2CFAF0AC1F733DB50090C36C /* Tyrion.jpg */,
+			);
+			name = imgs;
+			path = "/Users/ivan/Documents/proyectosMovil/Mi Primera Tabla/Mi Primera Tabla/imgs";
+			sourceTree = "<absolute>";
+		};
+		2CD5CEB21F75F26C00EC4042 /* carousel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = carousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +198,13 @@
 			files = (
 				2C9427231F733253004A9A96 /* LaunchScreen.storyboard in Resources */,
 				2C9427201F733253004A9A96 /* Assets.xcassets in Resources */,
+				2CFAF0B41F7350BA0090C36C /* Arya.jpg in Resources */,
+				2CFAF0AF1F733DB50090C36C /* Tyrion.jpg in Resources */,
 				2C94271B1F733253004A9A96 /* Main.storyboard in Resources */,
+				2CFAF0B21F733E370090C36C /* Dragon.jpg in Resources */,
+				2CFAF0AE1F733DB50090C36C /* Eddard.jpg in Resources */,
+				2CFAF0B01F733DB50090C36C /* Danaerys.jpg in Resources */,
+				2C9427331F7336DA004A9A96 /* cellMainTable.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +218,7 @@
 				2C9427181F733253004A9A96 /* ViewController.m in Sources */,
 				2C9427151F733253004A9A96 /* AppDelegate.m in Sources */,
 				2C9427261F733253004A9A96 /* main.m in Sources */,
+				2C9427321F7336DA004A9A96 /* cellMainTable.m in Sources */,
 				2C94271E1F733253004A9A96 /* Mi_Primera_Tabla.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
