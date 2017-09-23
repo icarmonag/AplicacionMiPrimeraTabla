@@ -16,6 +16,7 @@
 		2C9427261F733253004A9A96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9427251F733253004A9A96 /* main.m */; };
 		2C9427321F7336DA004A9A96 /* cellMainTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9427301F7336DA004A9A96 /* cellMainTable.m */; };
 		2C9427331F7336DA004A9A96 /* cellMainTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C9427311F7336DA004A9A96 /* cellMainTable.xib */; };
+		2CB718191F76AE8900127A1F /* BioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB718181F76AE8900127A1F /* BioViewController.m */; };
 		2CFAF0AE1F733DB50090C36C /* Eddard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAF0AB1F733DB40090C36C /* Eddard.jpg */; };
 		2CFAF0AF1F733DB50090C36C /* Tyrion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAF0AC1F733DB50090C36C /* Tyrion.jpg */; };
 		2CFAF0B01F733DB50090C36C /* Danaerys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAF0AD1F733DB50090C36C /* Danaerys.jpg */; };
@@ -38,6 +39,8 @@
 		2C94272F1F7336DA004A9A96 /* cellMainTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cellMainTable.h; sourceTree = "<group>"; };
 		2C9427301F7336DA004A9A96 /* cellMainTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cellMainTable.m; sourceTree = "<group>"; };
 		2C9427311F7336DA004A9A96 /* cellMainTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = cellMainTable.xib; sourceTree = "<group>"; };
+		2CB718171F76AE4C00127A1F /* BioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BioViewController.h; sourceTree = "<group>"; };
+		2CB718181F76AE8900127A1F /* BioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BioViewController.m; sourceTree = "<group>"; };
 		2CFAF0AB1F733DB40090C36C /* Eddard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Eddard.jpg; sourceTree = "<group>"; };
 		2CFAF0AC1F733DB50090C36C /* Tyrion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tyrion.jpg; sourceTree = "<group>"; };
 		2CFAF0AD1F733DB50090C36C /* Danaerys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Danaerys.jpg; sourceTree = "<group>"; };
@@ -104,6 +107,8 @@
 			children = (
 				2C9427171F733253004A9A96 /* ViewController.m */,
 				2C9427161F733253004A9A96 /* ViewController.h */,
+				2CB718171F76AE4C00127A1F /* BioViewController.h */,
+				2CB718181F76AE8900127A1F /* BioViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 				2C9427261F733253004A9A96 /* main.m in Sources */,
 				2C9427321F7336DA004A9A96 /* cellMainTable.m in Sources */,
 				2C94271E1F733253004A9A96 /* Mi_Primera_Tabla.xcdatamodeld in Sources */,
+				2CB718191F76AE8900127A1F /* BioViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

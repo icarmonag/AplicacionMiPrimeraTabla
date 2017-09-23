@@ -12,5 +12,8 @@
 @property (weak, nonatomic) IBOutlet UIImageView *image;
 @property (weak, nonatomic) IBOutlet UILabel *lblName;
 @property (weak, nonatomic) IBOutlet UILabel *lblAge;
+@property (weak, nonatomic) IBOutlet UIView *showBioOnSelection;
+
+
 
 @end

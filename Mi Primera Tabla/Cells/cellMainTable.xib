@@ -23,14 +23,14 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tyrion Lanister" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7U-yr-8ep">
-                        <rect key="frame" x="56" y="0.0" width="140" height="21"/>
+                        <rect key="frame" x="56" y="0.0" width="184" height="21"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Edad: 38 años" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="STu-qs-o1E">
-                        <rect key="frame" x="56" y="22" width="124" height="21"/>
+                        <rect key="frame" x="56" y="22" width="165" height="21"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
@@ -51,6 +51,7 @@
                 <outlet property="image" destination="n6r-N1-caS" id="qem-yZ-rg0"/>
                 <outlet property="lblAge" destination="STu-qs-o1E" id="8wm-eK-j8f"/>
                 <outlet property="lblName" destination="d7U-yr-8ep" id="Qy6-Ht-Hbf"/>
+                <outlet property="showBioOnSelection" destination="H2p-sc-9uM" id="DXZ-Xa-qT4"/>
             </connections>
             <point key="canvasLocation" x="21" y="28"/>
         </tableViewCell>

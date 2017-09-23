@@ -195,4 +195,43 @@
     
 }
 
+//- (IBAction)unwindBioAction:(UIStoryboardSegue*)unwindSegue{
+    
+//}
+
+- (IBAction)unwindBioAction:(UIStoryboardSegue *)segue {
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [self performSegueWithIdentifier:@"showBioSegue" sender:indexPath];
+    
+}
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    
+    if ([segue.identifier isEqualToString:@"showBioSegue"])
+    {
+        
+        NSIndexPath *indexPath = (NSIndexPath *)sender;
+        BioViewController *destViewController = segue.destinationViewController;
+        destViewController.selectedRow = indexPath.row;
+        for (int i=0;i<self.userImages.count;i++){
+            if (i==0){
+                destViewController.userImages = [[NSMutableArray alloc] initWithObjects: @"Tyrion.jpg", @"Danaerys.jpg", @"Eddard.jpg", @"Dragon.jpg", nil];
+            }
+            NSLog(@"%d", i);
+            
+            if (i>=destViewController.userImages.count)
+            {
+                NSLog(@"%lx", destViewController.userImages.count);
+                [destViewController.userImages addObject:self.imageTaken[i]];
+            } else {
+            destViewController.userImages[i]=[UIImage imageNamed:self.userImages[i]];
+            }
+        }
+        NSLog(@"%lx", indexPath.row);
+    }
+}
 @end
+

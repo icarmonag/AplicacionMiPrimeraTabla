@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BioViewController.h"
 
 @interface ViewController  : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tblMain;
@@ -15,6 +16,7 @@
 
 - (IBAction)takePhoto:  (UIButton *)sender;
 - (IBAction)selectPhoto:(UIButton *)sender;
+- (IBAction)unwindBioAction:(UIStoryboardSegue *)segue;
 
 @end
 
